@@ -161,7 +161,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="243" placeholderIntrinsicHeight="40" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2F-PN-2cy">
-                                <rect key="frame" x="86" y="737" width="243" height="40"/>
+                                <rect key="frame" x="85.5" y="737" width="243" height="40"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Ccr-nK-033"/>
@@ -223,24 +223,26 @@
                                             <rect key="frame" x="0.0" y="0.0" width="68" height="69"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QqY-AG-6qi">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QzK-KO-GhQ">
                                                     <rect key="frame" x="0.0" y="0.0" width="68" height="69"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <fontDescription key="fontDescription" name="KFGQPCUthmanicScriptHAFS" family="KFGQPC Uthmanic Script HAFS" pointSize="25"/>
-                                                    <state key="normal" title="Button">
-                                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </state>
-                                                </button>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="69" id="LoN-yZ-PeF"/>
+                                                        <constraint firstAttribute="width" constant="68" id="ad7-Rw-s2R"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AlNile" family="Al Nile" pointSize="27"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstItem="QqY-AG-6qi" firstAttribute="top" secondItem="N1C-wR-cFc" secondAttribute="top" id="I3n-Ef-jpa"/>
-                                            <constraint firstAttribute="bottom" secondItem="QqY-AG-6qi" secondAttribute="bottom" id="OPM-ng-T2q"/>
-                                            <constraint firstAttribute="trailing" secondItem="QqY-AG-6qi" secondAttribute="trailing" id="g6a-1f-J54"/>
-                                            <constraint firstItem="QqY-AG-6qi" firstAttribute="leading" secondItem="N1C-wR-cFc" secondAttribute="leading" id="pFh-Iu-f2Y"/>
+                                            <constraint firstItem="QzK-KO-GhQ" firstAttribute="top" secondItem="N1C-wR-cFc" secondAttribute="top" id="HX4-Hv-8ur"/>
+                                            <constraint firstAttribute="trailing" secondItem="QzK-KO-GhQ" secondAttribute="trailing" id="Uew-Bs-rk4"/>
+                                            <constraint firstItem="QzK-KO-GhQ" firstAttribute="leading" secondItem="N1C-wR-cFc" secondAttribute="leading" id="VJs-a5-Pfm"/>
+                                            <constraint firstAttribute="bottom" secondItem="QzK-KO-GhQ" secondAttribute="bottom" id="ft3-52-7v5"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="GridButton" destination="QqY-AG-6qi" id="qdK-ZO-9dg"/>
+                                            <outlet property="GridButton" destination="QzK-KO-GhQ" id="U32-lI-EfW"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -274,7 +276,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nze-Cm-l3L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2942" y="177"/>
+            <point key="canvasLocation" x="2940.579710144928" y="176.78571428571428"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QvZ-3G-nMo">

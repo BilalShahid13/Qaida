@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "a7a0109652379ef88831ed19b9b99e67"
+build_time: [1561391566, 339183000]
+inputs:
+  "/Users/bilalshahid/Developer/Qaida/Qaida/Lessons/LessonsViewController.swift": [1560270480, 32175057]
+  "/Users/bilalshahid/Developer/Qaida/Qaida/Takhti/GridViewController.swift": [1561391566, 291379040]
+  "/Users/bilalshahid/Developer/Qaida/Qaida/QaidaClass.swift": [1542565188, 0]
+  "/Users/bilalshahid/Developer/Qaida/Qaida/QaidaDatatoArray.swift": [1560269801, 868324775]
+  "/Users/bilalshahid/Developer/Qaida/Qaida/AppDelegate.swift": [1560265045, 54534806]
+  "/Users/bilalshahid/Developer/Qaida/Qaida/Takhti/GridViewCell.swift": [1561389871, 127586335]
+  "/Users/bilalshahid/Developer/Qaida/Qaida/User.swift": [1544017813, 0]
+  "/Users/bilalshahid/Developer/Qaida/Qaida/Lessons/lessonsCell.swift": [1542642210, 0]
+  "/Users/bilalshahid/Developer/Qaida/Qaida/QaidaViewController.swift": [1560266160, 117038835]
+  "/Users/bilalshahid/Developer/Qaida/Qaida/QaidaCollectionViewCell.swift": [1560265512, 93495432]

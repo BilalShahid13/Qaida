@@ -10,7 +10,7 @@ import UIKit
 
 class GridViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var GridButton: UIButton!
+    @IBOutlet weak var GridButton: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         self.contentView.isUserInteractionEnabled = false
